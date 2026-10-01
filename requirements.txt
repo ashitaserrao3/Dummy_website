@@ -1,0 +1,9 @@
+streamlit
+pandas
+openpyxl
+xlrd
+pdfplumber
+# pinned: the activity log hooks into this version's login handling
+streamlit-authenticator==0.4.2
+gspread
+google-auth

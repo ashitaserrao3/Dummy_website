@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyc.*
+.streamlit/secrets.toml
+secrets.toml
+config.yaml
+outputs/
+.DS_Store
+!.streamlit/config.toml
