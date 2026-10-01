@@ -1,0 +1,29 @@
+# App look & feel (committed to git; secrets.toml stays private)
+
+[client]
+toolbarMode = "minimal"        # hides the Deploy button / developer menu
+showSidebarNavigation = false
+
+[theme]
+base = "light"
+primaryColor = "#C8102E"       # ACL red – buttons, selected items
+backgroundColor = "#F4F6FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#14213D"
+linkColor = "#1D4E89"
+borderColor = "#DDE3EC"
+dataframeBorderColor = "#E6EAF1"
+showWidgetBorder = true
+baseRadius = "10px"
+baseFontSize = 15
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+headingFontSizes = ["2rem", "1.5rem", "1.2rem", "1.05rem", "1rem", "0.9rem"]
+
+[theme.sidebar]
+backgroundColor = "#0B2545"
+secondaryBackgroundColor = "#13315C"
+textColor = "#E8EEF7"
+primaryColor = "#FF5A6E"
+borderColor = "#25456F"
